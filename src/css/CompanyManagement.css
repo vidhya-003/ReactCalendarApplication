@@ -1,0 +1,167 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input, form select, form textarea, form button, form label {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  form button {
+    background-color: #5A1A32;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  
+  form button:hover {
+    background-color: #5A1A32;
+  }
+  
+  form label {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+  }
+  
+  /* List Styling */
+  .list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-container h3 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul li strong {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  ul li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  ul li button:hover {
+    background-color: #d32f2f;
+  }
+  
+ /* Media Queries for Tablet and Mobile */
+@media (max-width: 768px) {
+  /* Form */
+  form {
+    padding: 15px;
+    width: 100%;
+    max-width: none;
+  }
+
+  form input, form select, form textarea, form button, form label {
+    width: 100%;
+  }
+
+  /* List Container */
+  .list-container {
+    padding: 15px;
+  }
+
+  /* List Item */
+  ul li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul li button {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+/* Media Queries for Smaller Mobile Screens */
+@media (max-width: 480px) {
+  /* Form */
+  form {
+    padding: 10px;
+    width: 100%;
+    max-width: none;
+  }
+
+  form input, form select, form textarea, form button, form label {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  /* List Container */
+  .list-container {
+    padding: 10px;
+  }
+
+  /* List Item */
+  ul li {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul li button {
+    width: 100%;
+    padding: 8px;
+    font-size: 13px;
+  }
+}

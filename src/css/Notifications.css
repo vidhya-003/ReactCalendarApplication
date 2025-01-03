@@ -1,0 +1,129 @@
+
+
+/* General layout */
+.notifications-section {
+  margin: 20px 0;
+  width:60%;
+  padding: 20px;
+  margin-left:220px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1{
+  text-align: center;
+  color:white;
+}
+.notifications-section h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Table Styling */
+.notifications-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left:180px;
+  border-radius: 30px;
+}
+
+.notifications-table th,
+.notifications-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.notifications-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  background-color: #674D66;
+  color: white;
+}
+
+.notifications-table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.notifications-table tr:hover {
+  background-color: #eaeaea;
+}
+
+.notifications-table td {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Messages for empty states */
+p {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+  
+}
+
+.notification-icon {
+  position: fixed;
+  top: 5px;
+  right: 500px;
+  z-index: 1000;
+  
+  
+}
+
+
+/* Media Queries for Tablet and Mobile */
+@media (max-width: 768px) {
+  .notifications-section {
+    width: 80%;
+    margin-left: 20px;
+    padding: 15px;
+  }
+
+  .notifications-table {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 10px;
+  }
+
+  .notifications-table th,
+  .notifications-table td {
+    padding: 8px;
+  }
+
+  .notifications-table td {
+    font-size: 0.85rem;
+  }
+}
+
+/* Media Queries for Smaller Mobile Screens */
+@media (max-width: 480px) {
+  .notifications-section {
+    width: 95%;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .notifications-table {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 8px;
+  }
+
+  .notifications-table th,
+  .notifications-table td {
+    padding: 6px;
+  }
+
+  .notifications-table td {
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
