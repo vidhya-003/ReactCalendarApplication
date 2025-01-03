@@ -1,0 +1,90 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.dashboard-header h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.notifications {
+  margin-top: 20px;
+}
+
+.notifications-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.notification-box {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.notification-box h3 {
+  font-size: 20px;
+}
+
+.notification-box p {
+  font-size: 18px;
+}
+
+.notification-box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.company-overview {
+  margin-top: 40px;
+}
+
+.company-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.company-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.company-card h3 {
+  font-size: 18px;
+}
+
+.company-card p {
+  font-size: 16px;
+}
+
+.overdue-alert {
+  color: red;
+  font-weight: bold;
+}
+
+.actions {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.cta-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
